@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+    
+    /* ### Neutral */
+    
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 0.9375rem;
+    background-color: var(--White);
+    background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 50% right 50%, top 100% left 100%;
+    margin: 150px auto;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-content: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--Very-Dark-Magenta);
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: var(--White);
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 20px 0 0 80px;
+    
+}
+
+p {
+
+}
+
+/* Tag Selector */
+.container1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 120px;
+    width: 50%;
+}
+
+.header {
+    width: 50%;
+}
+
+.header-text {
+    max-width: 375px;
+}
+
+.header p {
+    color: var(--Dark-Grayish-Magenta);
+    font-weight: 500;
+    font-size: inherit;
+    line-height: 20px;
+}
+
+.stats {
+    width: 50%;
+    margin-left: 30px;
+}
+.stats p {
+    text-align: center;
+}
+.stars {
+    margin-right: 10px;
+}
+
+.stats-text {
+    background-color: var(--Light-Grayish-Magenta);
+    margin-bottom: 20px;
+    padding: 15px;
+    max-width: 400px;
+    border-radius: 7px;
+    /* background-image: url(/images/icon-star.svg); */
+    /* background-repeat: repeat-x; */
+}
+
+.stats-text2 {
+    margin-left: 40px;
+}
+
+.stats-text3 {
+    margin-left: 80px;
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    
+}
+
+.review p {
+    color: var(--Light-Grayish-Magenta);
+    margin-top: 20px;
+}
+
+.review-text {
+    background-color: var(--Very-Dark-Magenta);
+    max-width: 250px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.review-text2 {
+    margin-top: 40px;
+}
+
+.review-text3 {
+    margin-top: 80px;
+}
+
+.verified {
+    display: block;
+    font-weight: 200;
+    color: var(--Soft-Pink); 
+}
+
+.review-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.headshot {
+    position: absolute;
+    border-radius: 50%;
+    width: 35px;
+    margin: 10px 0 0 20px;
+    display: ;
+    
+}
+
+.attribution {
+    font-size: 13px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    margin: 0 auto;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  @media (max-width: 1200px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+        background-image: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: top 0 left 25px, bottom 0 right 25px ;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .header {
+        width: 100%;
+        display: flex; 
+        justify-content: center;
+        margin-right: 100px;
+        text-align: center;
+    }
+
+    .stats {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
+    }
+
+    .stats-text {
+        width: 100%;
+        margin: 0 200px 20px 0;
+    }
+
+    .stats-text span {
+        display: block;
+
+    }
+
+    .review {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .review-text3 {
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .attribution {
+        position: relative;
+        margin-top: 20px;
+    }
+  }
