@@ -36,16 +36,16 @@ main {
 
 h1 {
     font-weight: 700;
-    font-size: 50px;
+    font-size: 3.125rem;
     color: var(--Very-Dark-Magenta);
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 h2 {
     color: var(--White);
     font-weight: 400;
     font-size: 1rem;
-    margin: 10px 0 0 80px;
+    margin: 0.625rem 0 0 5rem;
     
 }
 
@@ -54,8 +54,8 @@ h2 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-top: 40px;
-    padding-left: 120px;
+    padding-top: 2.5rem;
+    padding-left: 7.5rem;
     width: 50%;
 }
 
@@ -71,12 +71,12 @@ h2 {
     color: var(--Dark-Grayish-Magenta);
     font-weight: 500;
     font-size: inherit;
-    line-height: 20px;
+    line-height: 1.25rem;
 }
 
 .stats {
     width: 50%;
-    margin-left: 30px;
+    margin-left: 1.875rem;
 }
 .stats p {
     text-align: center;
@@ -84,39 +84,39 @@ h2 {
     font-weight: 500;
 }
 .stars {
-    margin-right: 10px;
+    margin-right: 0.625rem;
 }
 
 .stats-text {
     background-color: var(--Light-Grayish-Magenta);
-    margin-bottom: 20px;
-    padding: 15px;
-    max-width: 400px;
+    margin-bottom: 1.25rem;
+    padding: 0.9375rem;
+    width: 25rem;
     border-radius: 7px;
     /* background-image: url(/images/icon-star.svg); */
     /* background-repeat: repeat-x; */
 }
 
 .stats-text2 {
-    margin-left: 40px;
+    margin-left: 2.5rem;
 }
 
 .stats-text3 {
-    margin-left: 80px;
+    margin-left: 5rem;
 }
 
 .review {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 6.25rem;
+    margin-left: 6.25rem;
     
 }
 
 .review p {
     color: var(--Light-Grayish-Magenta);
-    margin-top: 20px;
+    margin-top: 1.25rem;
     line-height: 1.5;
     font-size: inherit;
 }
@@ -124,19 +124,19 @@ h2 {
 .review-text {
     background-color: var(--Very-Dark-Magenta);
     max-width: 250px;
-    height: 200px;
-    margin-right: 20px;
+    height: 12.5rem;
+    margin-right: 1.25rem;
     border-radius: 7px;
-    padding: 10px;
+    padding: 0.625rem;
     
 }
 
 .review-text2 {
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .review-text3 {
-    margin-top: 80px;
+    margin-top: 5rem;
 }
 
 .verified {
@@ -153,14 +153,14 @@ h2 {
 .headshot {
     position: absolute;
     border-radius: 50%;
-    width: 35px;
-    margin: 10px 0 0 20px;
+    width: 2.1875rem;
+    margin: 0.625rem 0 0 1.25rem;
     display: ;
     
 }
 
 .attribution {
-    font-size: 13px;
+    font-size: 0.8125rem;
     text-align: center;
     position: fixed;
     bottom: 0;
@@ -212,7 +212,7 @@ h2 {
 
     .stats-text {
         width: 100%;
-        margin: 0 200px 20px 0;
+        margin: 0 12.5rem 1.25rem 0;
     }
 
     .stats-text span {
@@ -225,20 +225,20 @@ h2 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: 50px;
-        margin-top: 10px;
+        margin-left: 3.125rem;
+        margin-top: 0.625rem;
     }
 
     .review-text3 {
-        margin-top: 30px;
+        margin-top: 1.875rem;
     }
 
     h1 {
-        font-size: 25px;
+        font-size: 1.5625rem;
     }
 
     .attribution {
         position: relative;
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
   }
